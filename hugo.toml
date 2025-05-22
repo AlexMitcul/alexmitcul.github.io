@@ -1,4 +1,5 @@
-baseURL = "https://example.com"
+baseURL = "https://alexmitcul.github.io"
+
 languageCode = "en-us"
 title = "Archie"
 theme="archie"
@@ -15,16 +16,6 @@ pygmentscodefencesguesssyntax = true
 name = "GitHub"
 icon = "github"
 url = "https://github.com/athul/archie"
-
-[[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://twitter.com/athulcajay/"
-
-[[params.social]]
-name = "GitLab"
-icon = "gitlab"
-url = "https://gitlab.com/athul/"
 
 [[menu.main]]
 name = "Home"
