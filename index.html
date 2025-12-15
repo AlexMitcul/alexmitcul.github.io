@@ -3,33 +3,120 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>John Doe - CV</title>
+    <title>Alexandru Mitcul - Software Engineer</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <main class="cv">
+      <header class="header">
+        <div>
+          <h1>Alexandru Mitcul</h1>
+          <p class="title">Software Engineer</p>
+          <p class="contact">
+            <a href="mailto:alexandru.mitcul@outlook.com"
+              >alexandru.mitcul@outlook.com</a
+            >
+          </p>
+        </div>
+      </header>
+
+      <section>
+        <h2>Profile</h2>
+        <p>
+          Software Engineer with 5+ years of experience in backend development
+          using Java and Spring Boot. Specialized in designing and evolving
+          high-load backend systems, from technical design and third-party API
+          integration to performance optimization and infrastructure cost
+          reduction.
+        </p>
+      </section>
+
+      <section>
+        <h2>Skills & Technologies</h2>
+
+        <div class="skills-group">
+          <strong>Languages:</strong> Java, Go, Python
+        </div>
+        <div class="skills-group">
+          <strong>Frameworks:</strong> Spring, Spring Boot, Spring Data JPA
+        </div>
+        <div class="skills-group">
+          <strong>Databases:</strong> PostgreSQL, Google Cloud Datastore
+        </div>
+        <div class="skills-group">
+          <strong>Messaging:</strong> Apache Kafka, Google Pub/Sub
+        </div>
+        <div class="skills-group">
+          <strong>Testing:</strong> JUnit 5, Mockito
+        </div>
+        <div class="skills-group">
+          <strong>Cloud:</strong> GCP, AWS, Kubernetes, Docker
+        </div>
+        <div class="skills-group">
+          <strong>Monitoring:</strong> Prometheus, Grafana, ELK Stack
+        </div>
+      </section>
+
       <section>
         <h2>Experience</h2>
 
         <div class="item">
-          <h3>Senior Backend Engineer — Company</h3>
-          <span class="date">2022 – Present</span>
+          <h3>Software Engineer — Five9</h3>
+          <span class="date">Nov 2024 – Present · Porto, Portugal</span>
           <ul>
-            <li>Designed REST APIs with Spring Boot</li>
-            <li>Worked with GCP, Datastore, Pub/Sub</li>
-            <li>Improved latency by 30%</li>
+            <li>
+              Designed and integrated data retention services, achieving 50%
+              faster execution and 70% database cost reduction
+            </li>
+            <li>
+              Led integration of social media APIs into the CX platform, scaling
+              throughput 5× and driving 3× revenue growth
+            </li>
           </ul>
         </div>
 
         <div class="item">
-          <h3>Software Engineer — Company</h3>
-          <span class="date">2019 – 2022</span>
+          <h3>Software Engineer — Critical TechWorks (BMW Group)</h3>
+          <span class="date">Aug 2022 – Nov 2024 · Porto, Portugal</span>
           <ul>
-            <li>Microservices architecture</li>
-            <li>Docker, CI/CD</li>
+            <li>
+              Optimized logistics backend, improving performance by 30% via
+              multithreading and memory tuning
+            </li>
+            <li>Designed REST APIs reducing average response time by 25%</li>
+            <li>
+              Migrated legacy modules to Spring Boot, cutting deployment time by
+              40%
+            </li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <h3>Software Engineer — SberDevices</h3>
+          <span class="date">May 2020 – Aug 2022 · Moscow, Russia</span>
+          <ul>
+            <li>
+              Redesigned batch processing jobs, reducing runtime from 1 hour to
+              10 minutes
+            </li>
+            <li>Implemented CRUD APIs using Java and Spring Boot</li>
+            <li>Increased code coverage using JUnit and Mockito</li>
           </ul>
         </div>
       </section>
+
+      <section>
+        <h2>Education</h2>
+        <p>
+          <strong>Bauman Moscow State Technical University</strong><br />
+          Bachelor of Physics — Plasma and High-Temperature Physics
+          (2016–2021)<br />
+          Thesis: “Compact Magnetron Sputtering System with a Variable Magnetic
+          Configuration”
+        </p>
+      </section>
+
+      <footer class="footer">Last updated: December 2025</footer>
     </main>
   </body>
 </html>
